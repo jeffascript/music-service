@@ -8,7 +8,6 @@ class FetchRequest {
             .catch((error: AxiosError) => {
                 if (error.response) {
                     throw error.response;
-                    // return { errCode: error.response.status, ...error.response.data };
                 }
             });
 

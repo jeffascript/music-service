@@ -7,7 +7,7 @@ import CoverArtAPi from '../../services/coverapi.service';
 import ArtistController from '../../controllers/artist.controller';
 import BrainApiService from '../../services/brainapi.service';
 import jsonResult from '../../model/sampleResponse.json';
-import externalApiResponse from '../../model/sampleApiResponse.json';
+import externalApiResponse from '../../model/sampleapiresponse.json';
 
 describe('Get result with mocked API method', () => {
     let brainMusicApiCallStub: sinon.SinonSpy<any, any>;

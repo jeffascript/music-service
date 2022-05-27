@@ -26,7 +26,6 @@ class App {
         this.app.use(cors());
         this.app.use(express.json());
         this.app.use(express.urlencoded({ extended: false }));
-        // ErrorHandler.forEach((errHandler) => errHandler(this.app));
     }
 
     private initializeErrorHandling() {

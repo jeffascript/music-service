@@ -3,8 +3,9 @@ import FetchRequest from '../utils/axios';
 
 class WikiApiService {
     public async findArtistTitle(artistRelations: ArrayOfUnknownObjects[]) {
-        const urlResource = artistRelations.find((relation: ArrayOfUnknownObjects) => relation.type === 'wikidata')?.url
-            ?.resource;
+        const resource = artistRelations.find((relation: ArrayOfUnknownObjects) => relation.type === 'wikidata');
+
+        const urlResource = resource?.url?.resource;
 
         const wikiDataId = urlResource.match(/\/([a-zA-Z0-9]+)$/)[1];
 

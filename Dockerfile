@@ -1,15 +1,15 @@
-FROM node:12.13.0-alpine as base
+FROM node:14-alpine as base
 
-WORKDIR /app/server
+WORKDIR /app
 
-COPY package*.json /app/server/
+COPY package*.json /app/
 
 RUN npm i 
 
-COPY . /app/server/
+COPY . /app/
 
 RUN npm run build
 
-EXPOSE 5001
+EXPOSE 5003
 
 CMD ["npm", "run", "start"]

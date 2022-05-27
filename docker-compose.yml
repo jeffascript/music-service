@@ -3,25 +3,38 @@ services:
   server:
     container_name: server
     restart: always
-    build: ./server
+    build: .
     ports:
       - 5001:5001
     stdin_open: true
-    environment:
-      - GIF_AUTH_KEY=GK8dKpRS4sSv9ObCFc7aNMTBtjObGEIH #keeping it open here since we are on a private repo
-      - REDIS_URL=redis://redis:6379
+    # environment:
+    #     - PORT=5001
+      # - REDIS_URL=redis://redis:6379
     depends_on:
       - redis
     networks:
-      - react-express
+      - express-redis
+
+  nginx:
+    build:
+      context: .
+    container_name: nginx
+    restart: always
+    ports:
+      - 80:80
+    depends_on:
+      - server
+    networks:
       - express-redis
 
   redis:
+    image: redis:latest
+    command: ["redis-server", "--bind", "redis", "--port", "6379"]
     container_name: redis
-    image: redis:alpine
     restart: always
     networks:
       - express-redis
 
 networks:
   express-redis:
+  
