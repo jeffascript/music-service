@@ -1,26 +1,135 @@
 {
-    "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
-    "name": "Michael Jackson",
+    "mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+    "name": "50 Cent",
     "gender": "Male",
     "country": "US",
-    "disambiguation": "“King of Pop”",
-    "description": "<p><b>Michael Joseph Jackson</b> (August 29, 1958 –  June 25, 2009) was an American singer, songwriter, record producer,  dancer, and actor. Called the King of Pop, his contributions to music,  dance, and fashion along with his publicized personal life made him a  global figure in popular culture for over four decades.</p>\n<p>The  eighth ............. with $115 million in earnings.</p>\n<p></p>",
+    "disambiguation": "",
+    "description": "<p><b>Curtis James Jackson III</b>, known professionally as <b>50 Cent</b>, is an American rapper, actor and entrepreneur. Known for his impact in the hip hop industry, he has been described as a \"master of the nuanced art of lyrical brevity\".</p>",
     "albums": [
         {
-            "id": "500d9b05-68c3-3535-86e3-cf685869efc0",
-            "title": "Farewell My Summer Love",
-            "imageUrl": "http://coverartarchive.org/release/8172928a-a6c7- 4d7c-83c8-5db2a4575094/13404444760.jpg"
+            "id": "f624ead2-e4ba-4e52-bea5-4362b1c67b14",
+            "title": "Get Rich or Die Tryin’",
+            "imageUrl": "http://coverartarchive.org/release/3914ae8e-3b64-3a5b-bc37-9ff5dddf367d/31352547310.jpg"
         },
         {
-            "id": "37906983-1005-36fb-b8e7-3a04687e6f4f",
-            "title": "Anthology",
-            "imageUrl": "http://coverartarchive.org/release/a7a74484-8c25- 47e3-9afc-7de701ad3dde/1619836290.jpg"
+            "id": "7cf9ea18-827d-362d-858e-26faab3242ee",
+            "title": "The Massacre",
+            "imageUrl": "http://coverartarchive.org/release/5636aaaa-847b-45c9-b75d-b63721a98fbf/28650706375.jpg"
         },
-
         {
-            "id": "1516d16c-fad9-413f-99ba-ad1f767c608a",
-            "title": "The Motown Years...His Greatest Hits",
-            "imageUrl": "http://coverartarchive.org/release/1abad59d-5f52- 4b16-9b48-e8beeaf76ec8/8554032338.jpg"
+            "id": "64057bd1-ac2c-3a65-94b8-7540037c4a09",
+            "title": "Curtis",
+            "imageUrl": "http://coverartarchive.org/release/fd43fa91-f997-47e6-8f8e-0177b196406b/31392054643.jpg"
+        },
+        {
+            "id": "f79c54a1-080b-468a-9ddc-943a65bf77d1",
+            "title": "Before I Self Destruct",
+            "imageUrl": "http://coverartarchive.org/release/c7c10ab4-c358-4b7c-b955-dd79ea2860d7/1375260584.jpg"
+        },
+        {
+            "id": "a558a6b3-a5e2-4b64-9097-e55551b9306a",
+            "title": "Animal Ambition: An Untamed Desire to Win",
+            "imageUrl": "http://coverartarchive.org/release/19b0b304-6181-45f1-9df0-dda7307565f9/7433982987.jpg"
+        },
+        {
+            "id": "4c66f162-2b00-44f1-9ddd-e3508cccd5a6",
+            "title": "Come and Get You",
+            "imageUrl": "http://coverartarchive.org/release/ee8877fd-d023-43ae-af15-506e9ad31631/20475510754.jpg"
+        },
+        {
+            "id": "955665e9-9742-3e6b-9c75-876692b90d69",
+            "title": "The Hits and Unreleased, Volume 1",
+            "imageUrl": "http://coverartarchive.org/release/988142ce-45b0-4248-8b7d-519ecca7be5f/1630557758.jpg"
+        },
+        {
+            "id": "4af18406-44ee-3a24-a86b-fbfcc4867399",
+            "title": "Exclusives and Remixes, Volume 2",
+            "imageUrl": "http://coverartarchive.org/release/9ee690c3-331c-4a69-b69c-e99a8c29671c/1630332380.jpg"
+        },
+        {
+            "id": "7dc8eb67-e529-3bbd-8b02-861d3389e0bd",
+            "title": "G‐Unit, Pt. 5: Bulletproof",
+            "imageUrl": "http://coverartarchive.org/release/ce66224d-6476-4901-b803-b3674e082cde/31392510008.jpg"
+        },
+        {
+            "id": "b0a97c76-d78b-3788-b6dc-56bd64771dd8",
+            "title": "The Hits and Unreleased, Volume 2",
+            "imageUrl": "http://coverartarchive.org/release/f9333ecd-4758-42fe-8ffe-a7c97aa25a83/1630475969.jpg"
+        },
+        {
+            "id": "49b9adb1-b85d-3d01-9fa4-77be6771abce",
+            "title": "Tha Gangsta Mix",
+            "imageUrl": "http://coverartarchive.org/release/d7e09e33-7200-4f5e-a28f-052e116bde6f/1630577484.jpg"
+        },
+        {
+            "id": "ef4b1c55-496f-348f-9b44-4ec9fe554cb3",
+            "title": "Dealin' w/50",
+            "imageUrl": "http://coverartarchive.org/release/a05a4fab-e231-4a79-885d-190b0e946679/1630307687.jpg"
+        },
+        {
+            "id": "701b9b26-62db-34ee-bf43-cd5622203d29",
+            "title": "Freestyle B4 Paystyle",
+            "imageUrl": "http://coverartarchive.org/release/4f2bc40c-1701-43d5-9bbf-ec976768756f/1630315963.jpg"
+        },
+        {
+            "id": "de67db83-d8ff-4a4e-b878-515a3827090d",
+            "title": "Get Rich or Die Tryin’ / The Massacre",
+            "imageUrl": "http://coverartarchive.org/release/15c4189d-953e-42b2-b3b3-c6ba948b7df5/4963397492.jpg"
+        },
+        {
+            "id": "6ff60ca7-3ebb-4fd3-95c9-41d1675cba36",
+            "title": "Best Of",
+            "imageUrl": "http://coverartarchive.org/release/cf2e3c98-b6f8-4081-9fec-7096c1c5554a/16363212900.jpg"
+        },
+        {
+            "id": "dc60b5e3-c776-3506-89e4-617f7f67eba7",
+            "title": "Best of 50 Cent",
+            "imageUrl": "http://coverartarchive.org/release/a76f57c5-5918-4354-9031-69724f598d82/14579605414.jpg"
+        },
+        {
+            "id": "84d78993-d97b-4827-a129-894689424ad2",
+            "title": "Rare",
+            "imageUrl": "http://coverartarchive.org/release/edde1c01-1759-4a43-aba9-0222a15c99a9/23706715741.jpg"
+        },
+        {
+            "id": "eaa4d1a2-53c4-4515-99c1-ec32047753f7",
+            "title": "Get Rich or Die Tryin’",
+            "imageUrl": "http://coverartarchive.org/release/aef240d5-97e0-4012-a012-56b77a1487e6/18361847481.jpg"
+        },
+        {
+            "id": "9c8a36cc-bba2-3d97-833a-d4b2fc8daf5b",
+            "title": "Bulletproof",
+            "imageUrl": "http://coverartarchive.org/release/3337151c-7fe8-4e7f-a734-9cf160e61666/1630252477.jpg"
+        },
+        {
+            "id": "5a379158-82bf-4e15-87b6-134960c1da46",
+            "title": "NY State of Mind, Vol. 1",
+            "imageUrl": "http://coverartarchive.org/release/6b78a29b-408d-453a-b36e-cf69336d912e/21668406199.jpg"
+        },
+        {
+            "id": "9711e40c-f886-4ab8-b4f9-1ab6cff72be2",
+            "title": "’90s & My Heart’s Broken",
+            "imageUrl": "http://coverartarchive.org/release/7640573e-9e82-4368-abc3-ebed40a23a67/21802976037.jpg"
+        },
+        {
+            "id": "1ddb13a6-a812-4823-bbe5-fa986a4545ab",
+            "title": "Return of the Bad Guy",
+            "imageUrl": "http://coverartarchive.org/release/bca5736d-9d38-4853-a625-5533082bf723/8316720885.jpg"
+        },
+        {
+            "id": "88fe68c7-7f2c-4b4d-b8e1-acbba5b6a2a0",
+            "title": "Guess Who’s Back?",
+            "imageUrl": "http://coverartarchive.org/release/7d86abae-8c21-4812-90e5-885d228390b6/28233369427.png"
+        },
+        {
+            "id": "e212e0e9-7e4a-4de0-8fc0-504b0c15e790",
+            "title": "G-Unit Radio, Part 2: International Ballers",
+            "imageUrl": "http://coverartarchive.org/release/18f5abe0-c09c-4e6c-a251-0b5bd132454d/27341384766.jpg"
+        },
+        {
+            "id": "34a8a3d1-980b-4ce6-907c-58c60bb86163",
+            "title": "G‐Unit Radio, Pt 7: King of New York",
+            "imageUrl": "http://coverartarchive.org/release/2ea15341-2cbb-4573-8786-0b62e4bb9a20/31392562284.jpg"
         }
     ]
 }

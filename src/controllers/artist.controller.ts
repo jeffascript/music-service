@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
+import { ArtistFullInformation } from '../model/types';
 import { cacheExpiration, redisClient } from '../utils/redis';
 import HttpException from '../exceptions/HttpExceptions';
 import WikiApiService from '../services/wikiapi.service';
@@ -30,7 +31,7 @@ class ArtistController {
                 disambiguation,
                 description: artistDescription,
                 albums: albumsWithImg,
-            };
+            } as ArtistFullInformation;
 
             if (!musicBrainsResponse.id) {
                 throw new HttpException(404, 'Artist not found');

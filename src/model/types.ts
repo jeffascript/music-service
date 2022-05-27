@@ -4,7 +4,7 @@ export interface Album {
     imageUrl: string;
 }
 
-export interface RootObject {
+export interface ArtistFullInformation {
     mbid: string;
     name: string;
     gender: string;
