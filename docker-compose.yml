@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  server:
+    container_name: server
+    restart: always
+    build: ./server
+    ports:
+      - 5001:5001
+    stdin_open: true
+    environment:
+      - GIF_AUTH_KEY=GK8dKpRS4sSv9ObCFc7aNMTBtjObGEIH #keeping it open here since we are on a private repo
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - redis
+    networks:
+      - react-express
+      - express-redis
+
+  redis:
+    container_name: redis
+    image: redis:alpine
+    restart: always
+    networks:
+      - express-redis
+
+networks:
+  express-redis:
