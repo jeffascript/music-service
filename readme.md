@@ -29,18 +29,15 @@ npm start
 yarn start
 ```
 
-````
-
 as you see fit.
 
-
-
-If you are  using docker:
-
+If you are using docker:
 
 ```sh
+
 docker-compose up --build
-````
+
+```
 
 This will build the docker images and start the app.
 
@@ -64,7 +61,7 @@ d262ea27-3ffe-40f7-b922-85c42d625e67
 
 You can get more from MBID for search from this url: https://musicbrainz.org/search?query
 
-#### 1. Search & Cache functionality
+#### Search & Cache functionality
 
 As a user, when you append in a search string {:/mbid} at the end of the url param, the app first checks for the results stored in the temporary **cache**, else it makes an API call to the server to fetch the results, as well as cache the results for that session.
 
@@ -99,6 +96,8 @@ Also, NGINX was introduced as a load balancer to smoothen the effect on the mach
 Due to the likelihood of some front images been unavailable, a check was used in picking the CD cover image from the results.
 
 A lot of design patterns were used to make the app more robust and scalable. Services and middlewares were used to divide the app into smaller parts.
+
+Errors are handled with custom ErrorHandlers.
 
 #### Things to add / improve
 
