@@ -75,7 +75,7 @@ List of available routes:
 
 `GET /musify/music-artist/details/:mbid` - Get the full info of the Artist
 
-`POST /_status` - basic Health check
+`GET /_status` - basic Health check
 
 #### Server
 
